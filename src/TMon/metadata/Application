@@ -1,0 +1,27 @@
+{
+    "type": "application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "MyModel",
+            "IncomeGeneralModel",
+            "PrefixModel"
+        ],
+        "stores": [
+            "OutgoingDataStore",
+            "IncomingDataStore",
+            "PrefixesStore"
+        ],
+        "views": [
+            "MyViewport"
+        ],
+        "autoCreateViewport": true,
+        "name": "MyApp"
+    },
+    "id": "ExtBox1-ext-gen1587",
+    "designerId": "application"
+}

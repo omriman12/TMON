@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<web-app version="3.0" xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/web-app_3_0.xsd">
+    <session-config>
+        <session-timeout>
+            30
+        </session-timeout>
+    </session-config>
+    <servlet>
+        <description>File Upload Servlet</description>
+        <display-name>FileUploadServlet</display-name>
+        <servlet-name>FileUploadServlet</servlet-name>
+        <servlet-class>com.telzar.Data.FileUploadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FileUploadServlet</servlet-name>
+        <url-pattern>/FileUploadServlet</url-pattern>
+    </servlet-mapping>
+    <servlet>
+        <description>File Download Servlet</description>
+        <display-name>FileDownloadServlet</display-name>
+        <servlet-name>FileDownloadServlet</servlet-name>
+        <servlet-class>com.telzar.Data.FileDownloadServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>FileDownloadServlet</servlet-name>
+        <url-pattern>/FileDownloadServlet</url-pattern>
+    </servlet-mapping>
+</web-app>

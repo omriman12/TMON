@@ -1,0 +1,111 @@
+{
+    "name": "TMon",
+    "settings": {
+        "urlPrefix": "",
+        "spacesToIndent": 4,
+        "exportPath": "/Users/boris/NetBeansProjects/TMon/web",
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 676,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext41",
+    "topInstanceFileMap": {
+        "ebbc7a69-4220-4945-bfd0-f3a0bc98701f": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "64b7a101-ccae-4d08-82b8-ec198ed59850": {
+            "paths": [
+                "metadata/view/MyViewport",
+                "app/view/override/MyViewport.js",
+                "app/view/MyViewport.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyViewport"
+        },
+        "d9ad0e81-f75f-4d7a-abb8-0b5df39bcd38": {
+            "paths": [
+                "metadata/store/OutgoingDataStore",
+                "app/store/override/OutgoingDataStore.js",
+                "app/store/OutgoingDataStore.js"
+            ],
+            "className": "OutgoingDataStore"
+        },
+        "9eb1ff98-7fe8-4df1-a251-5c28a7d6dc9c": {
+            "paths": [
+                "metadata/model/MyModel",
+                "app/model/override/MyModel.js",
+                "app/model/MyModel.js"
+            ],
+            "className": "MyModel"
+        },
+        "c3dcd8f6-862b-42bf-bac9-087cd73aeae9": {
+            "paths": [
+                "metadata/store/IncomingDataStore",
+                "app/store/override/IncomingDataStore.js",
+                "app/store/IncomingDataStore.js"
+            ],
+            "className": "IncomingDataStore"
+        },
+        "6a403ceb-e7af-4dc3-9fdd-d226b5944acc": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
+        },
+        "6f45eea7-ffa3-4167-bd9e-d2d56e815ef7": {
+            "paths": [
+                "metadata/model/IncomeGeneralModel",
+                "app/model/override/IncomeGeneralModel.js",
+                "app/model/IncomeGeneralModel.js"
+            ],
+            "className": "IncomeGeneralModel"
+        },
+        "86077e38-3e1a-4b91-b2eb-965a7913d187": {
+            "paths": [
+                "metadata/store/PrefixesStore",
+                "app/store/override/PrefixesStore.js",
+                "app/store/PrefixesStore.js"
+            ],
+            "className": "PrefixesStore"
+        },
+        "621c0ed6-56b2-41d8-92cd-45aa4360a2d9": {
+            "paths": [
+                "metadata/model/PrefixModel",
+                "app/model/override/PrefixModel.js",
+                "app/model/PrefixModel.js"
+            ],
+            "className": "PrefixModel"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "64b7a101-ccae-4d08-82b8-ec198ed59850"
+        ],
+        "store": [
+            "d9ad0e81-f75f-4d7a-abb8-0b5df39bcd38",
+            "c3dcd8f6-862b-42bf-bac9-087cd73aeae9",
+            "86077e38-3e1a-4b91-b2eb-965a7913d187"
+        ],
+        "controller": [],
+        "model": [
+            "9eb1ff98-7fe8-4df1-a251-5c28a7d6dc9c",
+            "6f45eea7-ffa3-4167-bd9e-d2d56e815ef7",
+            "621c0ed6-56b2-41d8-92cd-45aa4360a2d9"
+        ],
+        "resource": [
+            "ebbc7a69-4220-4945-bfd0-f3a0bc98701f",
+            "6a403ceb-e7af-4dc3-9fdd-d226b5944acc"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}
